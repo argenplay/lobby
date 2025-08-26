@@ -98,7 +98,7 @@ data:
   database: $MYSQL_DATABASE
 
   # Credentials for the database.
-  username: $MYSQL_USERNAME
+  username: $MYSQL_USER
   password: $MYSQL_PASSWORD
 
   # These settings apply to the MySQL connection pool.
