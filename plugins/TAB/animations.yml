@@ -1,0 +1,58 @@
+servername:
+  change-interval: 300
+  texts:
+    - "&l&bARG&fEN&bPLAY &fNETWORK"
+    - "&l&bARGE&fNP&bLAY &fNETWORK"
+    - "&l&bARGEN&fPL&bAY &fNETWORK"
+    - "&l&bARGENP&fLA&bY &fNETWORK"
+    - "&l&bARGENPL&fAY &fNETWORK"
+    - "&l&fA&bRGENPLA&fY &fNETWORK"
+    - "&lA&fR&bGENPLAY &fNETWORK"
+    - "&l&bA&fRG&bENPLAY &fNETWORK"
+    - "&l&bAR&fGE&bNPLAY &fNETWORK"
+
+web:
+  change-interval: 500
+  texts:
+  - '<#fff700>&nstore.argenplay.net</#fff700>'
+  - '<#ffffff>&nstore.argenplay.net</#ffffff>'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 3000
+  texts:
+    - '&7Time &b%time%'
+    - '&7Date &b%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

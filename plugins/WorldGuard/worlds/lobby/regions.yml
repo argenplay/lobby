@@ -13,11 +13,11 @@ regions:
     __global__:
         members: {}
         flags:
-            give-effects: ['minecraft:night_vision 0 false', 'minecraft:speed 1 false']
             time-lock: '6000'
+            give-effects: ['minecraft:night_vision 0 false', 'minecraft:speed 1 false']
             build: deny
-            game-mode: adventure
             invincible: allow
+            game-mode: adventure
             mob-spawning: deny
             weather-lock: clear
             natural-hunger-drain: deny

@@ -1,3 +1,15 @@
 .env
 # .server is where the running server and player data is stored
 .server
+
+plugins/**
+
+!plugins/
+!plugins/**/
+
+!plugins/**/*.yml
+!plugins/**/*.jar
+
+plugins/.paper-remapped
+plugins/essentials/userdata
+plugins/luckperms/libs

@@ -12,6 +12,8 @@ services:
       - database
     tty: true
     stdin_open: true
+    volumes:
+      - ./plugins:/server/plugins
     restart: always
   database:
     image: mysql:9.4.0
@@ -19,7 +21,7 @@ services:
     env_file:
       - .env
     volumes:
-      - /var/lib/mysql:/db-data
+      - db-data:/var/lib/mysql
   phpmyadmin:
     image: phpmyadmin:5.2.2
     depends_on:
