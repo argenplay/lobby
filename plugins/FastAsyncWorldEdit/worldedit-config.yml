@@ -55,7 +55,7 @@ logging:
   # For details see:
   #   https://docs.oracle.com/javase/8/docs/api/java/util/Formatter.html
   #   https://docs.oracle.com/javase/8/docs/api/java/util/logging/SimpleFormatter.html#format-java.util.logging.LogRecord-
-  format: "[%1$tY-%1$tm-%1$td %1$tH:%1$tM:%1$tS %4$s]: %5$s%6$s%n"
+  format: "[%1-%1-%1 %1:%1:%1 %4]: %5%6%n"
 
 super-pickaxe:
   drop-items: true

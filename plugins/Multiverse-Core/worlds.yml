@@ -29,10 +29,25 @@ lobby:
   spawn-location:
     ==: MVSpawnLocation
     x: 0.0
-    y: 10.0
+    y: 1.0
     z: 0.0
     pitch: 0.0
     yaw: 0.0
-  spawning: {}
+  spawning:
+    animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    monster:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
   world-blacklist: []
   version: 1.2
