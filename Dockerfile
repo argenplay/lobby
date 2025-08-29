@@ -10,4 +10,4 @@ RUN chmod +x ./entrypoint.sh
 EXPOSE 25565
 
 ENTRYPOINT ["/server/entrypoint.sh"]
-CMD ["java", "-jar", "server.jar"]
+CMD ["java", "-jar", "server.jar", "--world-container", "worlds"]
