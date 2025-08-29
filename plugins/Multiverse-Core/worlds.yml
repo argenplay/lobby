@@ -28,9 +28,9 @@ lobby:
   seed: -444640842349638313
   spawn-location:
     ==: MVSpawnLocation
-    x: -0.5
-    y: 0.0
-    z: -0.5
+    x: 0.0
+    y: 10.0
+    z: 0.0
     pitch: 0.0
     yaw: 0.0
   spawning: {}
