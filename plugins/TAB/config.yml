@@ -2,15 +2,17 @@
 header-footer:
   enabled: true
   header:
-    - "<#FFFFFF>&m                                                                                  </#FFFF00>"
-    - "%animation:servername%"
+    - "<gradient:#3DEFFF:#FFFFFF:#3DEFFF><st>                                                                              </st>"
+    - ""
+    - "<b>%animation:servername%"
     - ""
   footer:
     - ""
     - "&r&7Jugadores Conectados: &f%online%"
     - ""
-    - "&r&7Tienda: %animation:web%&r     &r&7Discord: <#586aea>discord.gg/argenplay</#586aea>"
-    - "<#FFFFFF>&m                                                                                  </#FFFF00>"
+    - "&r&7Tienda: <#fff700>store.argenplay.net&r     &r&7Discord: <#8190FF>discord.argenplay.net</#8190FF>"
+    - ""
+    - "<gradient:#3DEFFF:#FFFFFF:#3DEFFF><st>                                                                              </st>"
   disable-condition: "%world%=disabledworld"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Tablist-name-formatting
@@ -32,7 +34,7 @@ scoreboard-teams:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Playerlist-Objective
 playerlist-objective:
-  enabled: true
+  enabled: false
   value: "%ping%"
   fancy-value: "&7Ping: %ping%"
   title: "TAB" # Only visible on Bedrock Edition
