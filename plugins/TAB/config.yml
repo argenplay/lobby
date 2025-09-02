@@ -81,16 +81,10 @@ scoreboard:
       title: "&bArgen&bPlay"
       lines:
         - ""
-        - "&6Online:"
-        - "* &eOnline&7: &f%online%"
-        - "* &eCurrent World&7: &f%worldonline%"
-        - "* &eStaff&7: &f%staffonline%"
+        - "<gold>》Usuario   "
+        - "<#CFCFCF>◆ ɴᴏᴍʙʀᴇ</#CFCFCF>: %player_name%   "
+        - "<#CFCFCF>◆ ʀᴀɴɢᴏ</#CFCFCF>: %luckperms_prefix%   "
         - ""
-        - "&6Personal Info:"
-        - "* &bRank&7: &f%group%"
-        - "* &bPing&7: &f%ping%&8ms"
-        - "* &bWorld&7: &f%world%"
-        - "%animation:MyAnimation1%"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
 layout:
