@@ -23,7 +23,7 @@ tablist-name-formatting:
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Nametags
 scoreboard-teams:
   enabled: true
-  enable-collision: true
+  enable-collision: false
   invisible-nametags: false
   # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
   sorting-types:
@@ -78,13 +78,18 @@ scoreboard:
   delay-on-join-milliseconds: 0
   scoreboards:
     scoreboard:
-      title: "&bArgen&bPlay"
+      title: "<b>%animation:servername%"
       lines:
         - ""
-        - "<gold>》Usuario   "
-        - "<#CFCFCF>◆ ɴᴏᴍʙʀᴇ</#CFCFCF>: %player_name%   "
-        - "<#CFCFCF>◆ ʀᴀɴɢᴏ</#CFCFCF>: %luckperms_prefix%   "
+        - "<gold>》Usuario"
+        - "<#CFCFCF>◆ ɴᴏᴍʙʀᴇ</#CFCFCF>: %player_name%"
+        - "<#CFCFCF>◆ ʀᴀɴɢᴏ</#CFCFCF>: %luckperms_prefix%"
         - ""
+        - "<gold>》Servidor"
+        - "<#CFCFCF>◆ ᴇɴ ʟíɴᴇᴀ</#CFCFCF>: %online%"
+        - "<#CFCFCF>◆ ᴠᴇʀѕɪóɴ</#CFCFCF>: $SERVER_VERSION"
+        - ""
+        - "||      <gray>argenplay.net          "
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
 layout:
