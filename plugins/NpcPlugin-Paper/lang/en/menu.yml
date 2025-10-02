@@ -1,0 +1,323 @@
+option:
+  # {0} - Value
+  value: '&7Value: {0}'
+  skin:
+    
+    title: '&bSkin'
+    description: '&7&oSet the skin of the NPC'
+    
+    empty-input: '&cInput cannot be empty'
+    fetching:
+      
+      # {0} - UUID
+      uuid: '&7Fetching skin for UUID &a{0}&7...'
+      name: '&7Fetching skin for name &a{0}&7...'
+      failed:
+        
+        # {0} - UUID
+        uuid: '&cFailed to fetch skin for UUID: &7{0}'
+        
+        # {0} - Name
+        name: '&cFailed to fetch skin for Name: &7{0}'
+    success: '&aSuccessfully changed the skin of the NPC!'
+    input:
+      
+      cancelled: '&cSkin input cancelled!'
+      empty: '&cInput cannot be empty!'
+      
+      # {0}- Timeout in seconds
+      timeout: '&cSkin input cancelled due to inactivity ({0}&c second timeout)!'
+    
+    abort-sequence: cancel
+    prompt: '&7Type in the name or UUID of a player to use their skin (or type ''cancel''
+      to abort):'
+  use-player-skin:
+    
+    title: '&bUse Player Skin'
+    description: |-
+      &7&oThe NPC will have the same
+      &7&oskin as each individual player
+  latency:
+    
+    title: '&bLatency'
+    description: |-
+      &7&oSet the latency of the NPC
+      &7&oLeft-click to increase
+      &7&oRight-click to decrease
+      &7&oMiddle-click to reset to default
+  show-tab-list:
+    
+    title: '&bShow in Tab List'
+    description: |-
+      &7&oWhether the NPC should
+      &7&obe shown in the tab list
+  hide-nametag:
+    
+    title: '&bHide Nametag'
+    description: |-
+      &7&oWhether the name tag
+      &7&oof the NPC should be hidden
+  list-order:
+    
+    title: '&bList Order'
+    description: |-
+      &7&oLeft-click to increase
+      &7&oRight-click to decrease
+      &7&oLeft-click + SHIFT to increase × 2
+      &7&oRight-click + SHIFT to decrease ÷ 2
+      &7&oMiddle-click to reset to default
+  pose:
+    
+    title: '&bPose'
+    description: '&7&oSet the pose of the NPC'
+  skin-parts:
+    
+    title: '&bSkin Parts'
+    description: '&7&oChoose which parts of the skin are visible'
+    
+    none: '&7None'
+    cape: Cape
+    jacket: Jacket
+    left-sleeve: Left Sleeve
+    right-sleeve: Right Sleeve
+    left-pants-leg: Left Pants Leg
+    right-pants-leg: Right Pants Leg
+    hat: Hat
+  look-at-player:
+    
+    title: '&bLook at Player'
+    description: |-
+      &7&oNPC always faces the player
+      &7&owhen within a certain radius
+      &7&oLeft-click to increase
+      &7&oRight-click to decrease
+      &7&oMiddle-click to reset to default (0 = disabled)
+  glowing:
+    
+    title: '&bGlowing'
+    description: |-
+      &7&oWhether the NPC should glow
+      &7&o(and in which color)
+    disable: '&cDisable Glowing'
+    color:
+      black: Black
+      dark-blue: Dark Blue
+      dark-green: Dark Green
+      dark-aqua: Dark Aqua
+      dark-red: Dark Red
+      dark-purple: Dark Purple
+      gold: Gold
+      gray: Gray
+      dark-gray: Dark Gray
+      blue: Blue
+      green: Green
+      aqua: Aqua
+      red: Red
+      light-purple: Light Purple
+      yellow: Yellow
+      white: White
+  scale:
+    
+    title: '&bScale'
+    description: |-
+      &7&oSet the size of the NPC (0.1 - 16.0)
+      &7&oLeft: +0.1, Right: -0.1, Middle: Reset
+  name:
+    
+    title: '&bName'
+    description: '&7&oSet the name of the NPC'
+    input:
+      empty: '&cName cannot be empty!'
+      
+      cancelled: '&cName input cancelled!'
+      
+      # {0} - Timeout in seconds
+      timeout: '&cName input cancelled due to inactivity ({0}&c second timeout)!'
+    
+    abort-sequence: cancel
+    prompt: '&7Type in the new name (use ''\$'' for colors, e.g., ''\'', use ''\n''
+      for new lines, or type ''cancel'' to abort):'
+    edit-old:
+      
+      text: ➥ Edit old name
+      hover: Click to pre-fill the previous name
+    
+    # {0} Old name (already colored)
+    # {1} New name (already colored)
+    change: '&7Successfully changed name from {0} &7to {1}'
+  click-action:
+    
+    title: '&eClick Action'
+    description: |-
+      &7&oDefine what happens
+      &7&owhen the NPC is clicked
+    external:
+      title: '&cExternally handled'
+      description: |-
+        &cAction is handled by another Plugin
+         and can therefore not be changed
+    type:
+      
+      title: '&bAction Type'
+      left:
+        title: '&bLeft Click Actions'
+        
+        # {0} - Amount of action configured
+        description: '&a{0}&7 action(s) configured'
+      both:
+        
+        title: '&bCombined Left & Right Click Actions'
+        
+        # {0} - Amount of action configured
+        description: |-
+          &7Actions here trigger on any click
+          &a{0}&7 action(s) configured
+      right:
+        
+        title: '&bRight Click Actions'
+        
+        # {0} - Amount of action configured
+        description: '&a{0}&7 action(s) configured'
+    
+    max-actions: '&cMaximum number of actions reached for this type!'
+    
+    empty: '&7(Empty - Click with Action Type)'
+    
+    # {0} - Action type
+    clear: '&cClear All {0}'
+  copy:
+    
+    title: '&dCopy UUID'
+    description: '&7&oCopies the UUID into your clipboard'
+    click: '&dClick here to copy UUID'
+  reload:
+    
+    title: '&eReload NPC'
+    description: '&7&oReloads the NPC'
+    
+    # {0} - NPC name (already colored)
+    success: '{0}&a successfully reloaded!'
+  enabled:
+    
+    title: '&aEnabled'
+    description: '&7&oThe NPC is visible to everyone'
+    
+    # {0} - NPC name (already colored)
+    change: '{0}&7 is now&a enabled!'
+  disabled:
+    title: '&cDisabled'
+    description: '&7&oThe NPC is only visible to operators'
+    change: '{0}&7 is now&c disabled!'
+  delete:
+    
+    title: '&cDelete NPC'
+    description: '&7&oPermanently delete this NPC'
+    confirm:
+      title: '&aConfirm Delete'
+      description: '&4&lThis action is irreversible!'
+    
+    # {0} - UUID of the NPC
+    fail: '&cFailed to delete file {0}&c.npc in folder NPC!'
+    
+    # {0} - NPC name (already colored)
+    success: '{0}&c has been deleted!'
+  teleport:
+    
+    title: '&dTeleport'
+    description: |-
+      &7&oLeft-Click: Teleports you to the NPC
+      &7&oRight-Click: Teleports the NPC to you
+  equipment:
+    
+    # {0} - Slot type (Head, Chest, Legs, Boots, Hand, Off Hand)
+    title: '&bEquipment {0}'
+    slot:
+      
+      # {0} - Slot type (Head, Chest, Legs, Boots, Hand, Off Hand)
+      title: '&b{0} Slot'
+      head: Head
+      chest: Chest
+      legs: Legs
+      feet: Feet
+      hand: Hand
+      off-hand: Off Hand
+    clear:
+      
+      # {0} - slot type
+      title: '&cClear {0}'
+    
+    # {0} - Item name
+    equipped: '&bEquipped: {0}'
+    
+    lore: |-
+      &7&oClick with an item to equip
+      &7&oEmpty click to browse items
+      &7&oMiddle-click to clear slot
+  incompatible:
+    
+    title: '&cIncompatible Version'
+    
+    # {0} - Required Minecraft version
+    description: '&c&lRequired Minecraft Version: {0}+'
+list:
+  value:
+    
+    'true': '&aYes'
+    'false': '&cNo'
+  
+  # {0} - UUID of the NPC (truncated to 14 characters)
+  uuid: '&7UUID: &9{0}&9...'
+  
+  # {0} - list.value
+  saved: '&7Saved: {0}'
+  
+  # {0} - list.value
+  enabled: '&7Enabled: {0}'
+  
+  # {0} - amount
+  click-events: '&7Click Events: &b{0}'
+  created:
+    
+    # {0} - time
+    today: '&7Created&6 Today&7 at&6 {0}'
+    
+    # {0} - time
+    yesterday: '&7Created&6 Yesterday&7 at&6 {0}'
+    
+    # {0} - date
+    any: '&7Created at: &6{0}'
+  
+  # {0} - distance
+  distance: '&7Distance: &d{0}'
+  
+  click-for-actions: '&e&lClick for actions'
+  
+  # {0} - size
+  title: NPC List ({0})
+  sort-by:
+    
+    title: '&eSort by'
+    none: None
+    name: Name
+    created: Created
+    nearest: Nearest
+  order:
+    
+    title: '&eOrder'
+    ascending: Ascending
+    descending: Descending
+  enabled-filter:
+    
+    title: '&bEnabled Filter'
+    description: '&7Show NPCs by status'
+    all: All
+    enabled: Enabled
+    disabled: Disabled
+  name-filter:
+    
+    title: '&bName Filter'
+  name:
+    input:
+      
+      # Max 16 Characters
+      prompt: Input Name

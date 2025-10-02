@@ -1,0 +1,8 @@
+# Time in ticks between each update where the NPC looks at the player (default = 5)
+look-at-update-interval: 5
+
+# If true, commands entered into the NPC action won't be validated.
+avoid-command-check: true
+
+# If true, enables additional debug logging
+debug: false

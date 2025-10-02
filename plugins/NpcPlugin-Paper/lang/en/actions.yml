@@ -1,0 +1,91 @@
+server:
+  title: '&aServer'
+  description: |-
+    &7Connect the player to a
+    &7different BungeeCord server
+  # {0} - server name
+  connecting: '&aConnecting you to &6{0}&a...'
+  
+  # {0} - server name
+  failed: '&cFailed to connect to server &6{0}&c!'
+  
+  # {0} - value
+  value: '&7Value: &6{0}'
+  
+  # {0} - value
+  set: '&aServer action set to: &6{0}'
+  input:
+    
+    empty: '&cServer cannot be empty! Please try again!'
+    cancelled: '&cServer input cancelled!'
+    timeout: '&cServer input cancelled due to inactivity ({0}&c second timeout)!'
+    edit:
+      text: ➥ Edit old server
+      hover: Click to pre-fill the previous server
+    prompt: '&7Enter server name. Type ''cancel'' to abort:'
+  
+  abort-sequence: cancel
+command:
+  
+  title: '&aCommand'
+  description: '&7Executes a command'
+  error:
+    
+    # {0} - error message
+    known: |-
+      &cAn error occurred while executing the command: &7{0}
+      &cPlease make sure the command is set up correctly!
+    unknown: |-
+      &cAn unexpected error occurred executing while the command!
+      &cPlease make sure the command is set up correctly!
+    # {0} - error message
+    syntax: '&cSyntax Error: {0}'
+    
+    # {0} - error message
+    arguments: '&cUnrecognized arguments: ''{0}'''
+  value:
+    
+    # {0} - value (truncated at 20 characters)
+    long: '&7Value: &6{0}...'
+    
+    # {0} - value (< 20 characters)
+    short: '&7Value: &6{0}'
+  input:
+    
+    empty: '&cCommand cannot be empty! Please try again!'
+    
+    abort-sequence: cancel
+    cancelled: '&cCommand input cancelled!'
+    timeout: '&cCommand input cancelled due to inactivity ({0} second timeout)!'
+    edit:
+      text: ➥ Edit old command
+      hover: Click to pre-fill the previous command
+    prompt: '&7Enter command without ''/''. Use ''@s'' to refer to the player. Type
+      ''cancel'' to abort:'
+  
+  # {0} - command
+  set: '&aCommand action set to: &6{0}'
+animation:
+  
+  title: '&aAnimation'
+  description: '&7Plays an animation'
+  swing-main-hand: Swing Main Hand
+  hurt: Hurt
+  wake-up: Wake Up
+  swing-off-hand: Swing Off Hand
+  critical-hit: Critical Hit
+  magic-critical-hit: Magic Critical Hit
+wait:
+  
+  title: '&aWait'
+  description: |-
+    &7Waits the given amount of seconds
+    &7before running the next action
+  # {0} - value
+  value: |-
+    &7Value: &6{0}&7 sec
+    &8L/R Click: +/-0.1s, Shift+L/R: +/-1.0s
+invalid:
+  
+  title: '&cUnknown/Invalid Action'
+  description: '&7This action type is no longer valid'

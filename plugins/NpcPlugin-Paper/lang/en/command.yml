@@ -1,0 +1,88 @@
+create:
+  # {0} - Error Message
+  fail: '&cError saving NPC: {0}'
+  success: '&aNPC successfully created!'
+copy:
+  
+  no-npc: '&cNo NPC found with that UUID'
+  # {0} - Error Message
+  fail: '&cError saving copied NPC: {0}'
+  success: '&aNPC successfully copied!'
+reload:
+  
+  success: '&aPlugin successfully reloaded!'
+edit:
+  
+  enabled: '&aEnabled NPC editing'
+  disabled: '&cDisabled NPC editing'
+list:
+  
+  loading: '&7Loading NPC data...'
+
+# {0} - Plugin Version
+# {1} - MC Version
+version: '&7Plugin Version: &a{0}&7 (MC Version: &9{1}&7)'
+tp:
+  
+  # {0} - NPC name (already colored)
+  success: '&7You teleported to {0}'
+  
+  # {0} - id
+  no-npc: '&cNPC with ID &e{0}&c was not found!'
+tphere:
+  
+  # {0} - NPC name (already colored)
+  fail: '&cFailed to teleport {0}&c to you!'
+  
+  # {0} - NPC name (already colored)
+  success: '&7You teleported {0}&7 to you!'
+  
+  no-npc: '&cNPC with ID &e{0}&c was not found!'
+config:
+  
+  reload: '&aConfig successfully reloaded!'
+  debug:
+    
+    # {0} - Current debug value
+    get: '&7Debug value: &9{0}'
+    
+    # {0} - New debug value
+    set: '&7Debug value set to &a{0}'
+  avoid-check:
+    
+    # {0} - Current avoid-check value
+    get: '&7Avoid check value: &9{0}'
+    
+    # {0} - New avoid-check value
+    set: '&7Avoid check value set to &a{0}'
+  look-at-update-interval:
+    
+    # {0} - Current look-at-update-interval value
+    get: '&7Look at update interval value: &9{0}'
+    
+    # {0} - New look-at-update-interval value
+    set: '&7Look at update interval value set to &a{0}'
+  input-time:
+    
+    # {0} - Current input-time value
+    get: '&7Input time value: &9{0}'
+    
+    # {0} - New input-time value
+    set: '&7Input time value set to &a{0}'
+  auto-update:
+    
+    # {0} - Current auto-update value
+    get: '&7Auto update value: &9{0}'
+    
+    # {0} - New auto-update value
+    set: '&7Auto update value set to &a{0}'
+  list:
+    
+    title: '&6NPC Config Settings:'
+    look-at-time: '&eLook At Timer: &fTime in ticks an NPC will look at a player after
+      interaction (20 ticks = 1 second)'
+    avoid-command-check: '&eAvoid Command Check: &fIf true, validation is skipped
+      (useful for proxy  like BungeeCord)'
+    debug: '&eDebug: &fIf true, debug mode is enabled for logging/diagnostics'
+    input-time: '&eInput Time: &fTime allowed for player input in seconds'
+    auto-update: '&eAuto Update: &fIf true, NPCs are automatically updated when changed'
