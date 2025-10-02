@@ -1,0 +1,33 @@
+spawns:
+  default:
+    world: a9fccd2b-4439-49fe-b70b-d78fab43133c
+    world-name: world
+    x: -67.48340230092653
+    y: 89.0
+    z: 458.46007119166484
+    yaw: 0.0018310546875
+    pitch: -1.5000150203704834
+  '07':
+    world: 1733d944-a063-4dc4-b9dc-056edd196059
+    world-name: world
+    x: -67.5
+    y: 89.0
+    z: 458.5
+    yaw: 0.10028643906116486
+    pitch: -3.450078010559082
+  '0':
+    world: a9fccd2b-4439-49fe-b70b-d78fab43133c
+    world-name: world
+    x: -67.48340230092653
+    y: 89.0
+    z: 458.46007119166484
+    yaw: 0.0018310546875
+    pitch: -1.5000150203704834
+  default 0:
+    world: a9fccd2b-4439-49fe-b70b-d78fab43133c
+    world-name: world
+    x: -67.48340230092653
+    y: 89.0
+    z: 458.46007119166484
+    yaw: 0.0018310546875
+    pitch: -1.5000150203704834
