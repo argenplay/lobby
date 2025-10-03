@@ -10,14 +10,24 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    player_fall:
+        min: {x: -104, y: -8, z: 371}
+        max: {x: -15, y: 15, z: 548}
+        members: {}
+        flags: {greeting: 'Si querés volver al inicio, usa §c/lobby'}
+        owners: {}
+        type: cuboid
+        priority: 0
     __global__:
         members: {}
         flags:
             time-lock: '6000'
-            give-effects: ['minecraft:night_vision 0 false', 'minecraft:speed 1 false']
+            deny-message: §c§lNO§7 podes hacer eso acá.
+            give-effects: ['minecraft:night_vision 0 false', 'minecraft:speed 0 false']
+            spawn: {world: world, x: -67.0, y: 89.0, z: 458.0, pitch: 0.0, yaw: 0.0}
             build: deny
-            invincible: allow
             game-mode: adventure
+            invincible: allow
             mob-spawning: deny
             weather-lock: clear
             natural-hunger-drain: deny

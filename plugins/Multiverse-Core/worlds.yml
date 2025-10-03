@@ -1,6 +1,6 @@
 world:
   adjust-spawn: true
-  alias: ""
+  alias: ''
   allow-advancement-grant: true
   allow-flight: false
   allow-weather: true
@@ -8,22 +8,22 @@ world:
   auto-heal: true
   auto-load: true
   bed-respawn: true
-  biome: ""
+  biome: ''
   difficulty: normal
   entry-fee:
     enabled: false
     amount: 0.0
-    currency: "@vault-economy"
+    currency: '@vault-economy'
   environment: normal
   gamemode: survival
-  generator: ""
+  generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
   player-limit: -1
   portal-form: all
   pvp: true
-  respawn-world: ""
+  respawn-world: ''
   scale: 1.0
   seed: 8732115816771498271
   spawn-location:
@@ -31,8 +31,8 @@ world:
     x: -67.5
     y: 89.0
     z: 458.5
-    pitch: 0
-    yaw: 0
+    pitch: -1.500015
+    yaw: 0.0018310547
   spawning:
     monster:
       spawn: true
