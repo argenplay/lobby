@@ -89,7 +89,7 @@ scoreboard:
         - "<#CFCFCF>◆ ᴇɴ ʟíɴᴇᴀ</#CFCFCF>: %online%"
         - "<#CFCFCF>◆ ᴠᴇʀѕɪóɴ</#CFCFCF>: $SERVER_VERSION"
         - ""
-        - "||      <gray>argenplay.net          "
+        - "          <gray>argenplay.net          "
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
 layout:
