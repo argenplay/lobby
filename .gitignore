@@ -13,3 +13,4 @@ plugins/**
 plugins/.paper-remapped
 plugins/essentials/userdata
 plugins/luckperms/libs
+worlds/usercache.json
