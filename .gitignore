@@ -10,6 +10,8 @@ plugins/**
 !plugins/**/*.yml
 !plugins/**/*.jar
 
+!plugins/serversnpc/*.json
+
 plugins/.paper-remapped
 plugins/essentials/userdata
 plugins/luckperms/libs
